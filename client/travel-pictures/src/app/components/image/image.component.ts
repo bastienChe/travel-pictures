@@ -16,7 +16,7 @@ export class ImageComponent implements OnInit {
   ngOnInit(): void {
 
     this.getImages();
-
+    
   }
 
   getImages(): void{
