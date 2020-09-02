@@ -1,10 +1,7 @@
 <div class="row">
-    
-    <div *ngFor="let image of images">
+    <a *ngFor="let image of images" routerLink="/image/{{image.id}}">
         <div class="col-md-6">
-            <img [src]="image.url" style="background-size: cover; height:400px;"/>
+            <img [src]="image.url" style="background-size: cover; height:400px;" /> 
         </div>
-    </div> 
-
-
+    </a> 
 </div>

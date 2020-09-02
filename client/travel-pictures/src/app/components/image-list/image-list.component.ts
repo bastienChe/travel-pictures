@@ -14,9 +14,7 @@ export class ImageListComponent implements OnInit {
   images: Image[];
 
   ngOnInit(): void {
-
     this.getImages();
-    
   }
 
   getImages(): void{
