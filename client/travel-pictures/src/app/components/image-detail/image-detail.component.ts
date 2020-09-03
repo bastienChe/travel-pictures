@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
 import { Image } from 'src/app/object/image';
-import { ImageService } from '../../services/image.service';
+import { ImageService } from '../../services/image/image.service';
 
 @Component({
   selector: 'app-image-detail',

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Images } from '../../mocks/image-mock';
-import { Image } from '../object/image';
+import { Images } from '../../../mocks/image-mock';
+import { Image } from '../../object/image';
 import { Observable, of } from 'rxjs';
 import { registerLocaleData } from '@angular/common';
 
