@@ -1,1 +1,23 @@
-<p>login works!</p>
+<br>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <form [formGroup]="userInfos" (ngSubmit)="onSubmit()">
+  
+            <label>
+              User:
+              <input type="text" formControlName="user">
+            </label>
+          
+            <label>
+              Password:
+              <input type="text" formControlName="password">
+            </label>
+
+            <button type="submit" [disabled]="!userInfos.valid">Submit</button>
+
+          </form>
+    </div>
+
+    <div class="col-md-4"></div>
+</div>
